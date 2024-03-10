@@ -278,7 +278,7 @@ function AB() {
       style.width = style.height = '100%'
       doc.head.appendChild(link)
       doc.body.appendChild(iframe)
-      location.replace('https://classroom.google.com')
+      location.replace('about:blank')
     }
   }
 }
