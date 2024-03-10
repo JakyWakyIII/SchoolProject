@@ -8,9 +8,15 @@
   {
     "name": "Amazon Luna",
     "link": "https://luna.amazon.com/",
+    "image": "/assets/media/icons/moyai_1f5ff.webp",
+    "categories": ["all", "local"],
+    "blank": "true"
+  },
+  {
+    "name": "Thirty Dollar Website",
+    "link": "https://thirtydollar.website",
     "image": "/assets/media/icons/amazon-luna.webp",
     "categories": ["all"],
-    "blank": "true"
   },
   {
     "name": "Dynast.io",
