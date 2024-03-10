@@ -169,6 +169,11 @@ function updateHeadSection(selectedValue) {
       name.textContent = 'Home'
       localStorage.setItem('name', 'Home')
       localStorage.setItem('icon', '/assets/media/favicon/classroom.png')
+    } else if (selectedValue === 'Otus') {
+      icon.setAttribute('href', '/assets/media/favicon/Otus.png')
+      name.textContent = 'Otus'
+      localStorage.setItem('name', 'Otus')
+      localStorage.setItem('icon', '/assets/media/favicon/Otus.png')
     }
   }
 }
