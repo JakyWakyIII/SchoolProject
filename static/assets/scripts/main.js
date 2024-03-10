@@ -106,6 +106,11 @@ document.addEventListener('DOMContentLoaded', function (event) {
     name.textContent = 'Edpuzzle'
     localStorage.setItem('name', 'Edpuzzle')
     localStorage.setItem('icon', '/assets/media/favicon/edpuzzle.png')
+  } else if (selectedValue === 'Otus') {
+    icon.setAttribute('href', '/assets/media/favicon/Otus.png')
+    name.textContent = 'Otus'
+    localStorage.setItem('name', 'Otus')
+    localStorage.setItem('icon', '/assets/media/favicon/Otus.png')
   }
 })
 // Key
