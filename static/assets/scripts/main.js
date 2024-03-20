@@ -66,6 +66,11 @@ document.addEventListener('DOMContentLoaded', function (event) {
     name.textContent = 'Home | Schoology'
     localStorage.setItem('name', 'Home | Schoology')
     localStorage.setItem('icon', '/assets/media/favicon/schoology.png')
+  } else if (selectedValue === 'New Tab') {
+    icon.setAttribute('href', '/assets/media/favicon/schoology.png')
+    name.textContent = 'Home | Schoology'
+    localStorage.setItem('name', 'New Tab')
+    localStorage.setItem('icon', '/assets/media/favicon/NewTab.png')
   } else if (selectedValue === 'Gmail') {
     icon.setAttribute('href', '/assets/media/favicon/gmail.png')
     name.textContent = 'Gmail'
