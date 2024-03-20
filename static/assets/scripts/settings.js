@@ -169,6 +169,11 @@ function updateHeadSection(selectedValue) {
       name.textContent = 'Home'
       localStorage.setItem('name', 'Home')
       localStorage.setItem('icon', '/assets/media/favicon/classroom.png')
+    } else if (selectedValue === 'New Tab') {
+      icon.setAttribute('href', '/assets/media/favicon/classroom.png')
+      name.textContent = 'New Tab'
+      localStorage.setItem('name', 'New Tab')
+      localStorage.setItem('icon', '/assets/media/favicon/NewTab.png')
     } else if (selectedValue === 'Otus') {
       icon.setAttribute('href', '/assets/media/favicon/Otus.png')
       name.textContent = 'Otus'
