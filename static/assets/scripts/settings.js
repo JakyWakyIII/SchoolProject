@@ -170,7 +170,7 @@ function updateHeadSection(selectedValue) {
       localStorage.setItem('name', 'Home')
       localStorage.setItem('icon', '/assets/media/favicon/classroom.png')
     } else if (selectedValue === 'New Tab') {
-      icon.setAttribute('href', '/assets/media/favicon/classroom.png')
+      icon.setAttribute('href', '/assets/media/favicon/NewTab.png')
       name.textContent = 'New Tab'
       localStorage.setItem('name', 'New Tab')
       localStorage.setItem('icon', '/assets/media/favicon/NewTab.png')
