@@ -77,6 +77,7 @@ let splashtext = [
   'dont vape',
   'drink water',
   'idk',
+  'my name'
 ]
 
 document.getElementById('splash').innerText = splashtext[Math.floor(Math.random() * splashtext.length)]
